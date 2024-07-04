@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cbc_container" align="center">
+            <h1> Cadastro de Usuários</h1>
+        </div>
+        <form class="form" method="post" action="../../php/cad_usuario.php">
+            
+            <fieldset>
+                <label for="nome"> Nome Completo</label>
+                <br>
+                <input id="nome_comp" name="nome_comp" type="text" required> 
+                <br>
+                <label for="email"> Email</label>
+                <br>
+                <input id="email" name="email" type="email" required> 
+                <br>
+                <label for="nome_usu"> Nome de usuário</label>
+                <br>
+                <input id="nome_usu" name="nome_usu" type="text" required> 
+                <br>
+                <label for="senha"> Senha</label>
+                <br>
+                <input id="senha" name="password" type="password" required> 
+                <br>
+                <br>
+                <button id="botao_cad" type="submit"> Salvar</button>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

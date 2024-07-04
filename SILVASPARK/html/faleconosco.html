@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="cbc_container">
+            <h1 align="center" >Fale Conosco:</h1>
+        </div> 
+
+        <form id="form1" name="form1" method="post" action="enviarEmail.php">
+            <table width="500" border="0" align="center" cellpadding="0" cellspacing="2">
+                
+                <tr>
+                    <td align="right">Nome:</td>
+                    <td><input type="text" name="nome" id="nome" /> </td>
+                    
+                </tr>
+                
+                <tr>
+                    <td align="right">Assunto:</td>
+                    <td><input type="text" name="Assunto" id="assunto" /></td>
+                    <br>
+                </tr>
+                
+                <tr>
+                    <td align="right">Mensagem:</td>
+                    <td><textarea name="mensagem" id="mensagem" cols="45" rows="5"></textarea> </td>
+                </tr>
+                
+                    <td colspan="2" align="center"><input type="submit" value="Enviar" /> </td>
+                
+               
+            </table>
+        </form>
+        
+    </div>
+</body>
+</html>
